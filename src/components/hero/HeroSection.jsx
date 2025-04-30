@@ -37,7 +37,7 @@ const HeroSection = () => {
           interest in building modern, responsive websites and transforming data
           into meaningful insights. Let's create something impactful together.
         </p>
-        <a href="cv.pdf/download">
+        <a href="/CV_Joko Setyanto.pdf" download>
           <button className="mt-4 bg-second text-primary px-8 py-4 rounded-xl font-semibold cursor-pointer md:mt-8 lg:mt-12 md:w-48 md:font-bold hover:scale-110 transition-all duration-300 ease-in-out font-cabin">
             Download CV
           </button>
