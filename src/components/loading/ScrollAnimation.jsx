@@ -5,7 +5,7 @@ import { useInView } from "framer-motion";
 const ScrollAnimation = ({ children, delay = 0.2 }) => {
   const controls = useAnimation();
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false }); // not once!
+  const isInView = useInView(ref, { once: true }); // not once!
 
   useEffect(() => {
     if (isInView) {

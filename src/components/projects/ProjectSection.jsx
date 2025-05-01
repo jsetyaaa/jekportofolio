@@ -6,39 +6,9 @@ const ProjectSection = () => {
     <div className="flex flex-col items-center justify-center gap-6 md:mx-6">
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
         <CardBox
-          thumbnail={images["Project1.jpg"]}
-          title="Project 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-          url="projectone"
-        />
-        <CardBox
-          thumbnail={images["Project1.jpg"]}
-          title="Project 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-          url="projectone"
-        />
-        <CardBox
-          thumbnail={images["Project1.jpg"]}
-          title="Project 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-          url="projectone"
-        />
-        <CardBox
-          thumbnail={images["Project1.jpg"]}
-          title="Project 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-          url="projectone"
-        />
-        <CardBox
-          thumbnail={images["Project1.jpg"]}
-          title="Project 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
-          url="projectone"
-        />
-        <CardBox
-          thumbnail={images["Project1.jpg"]}
-          title="Project 1"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+          thumbnail={images["Plasteco.png"]}
+          title="Landing Page PlastEco Solutions"
+          description="PlastEco Solutions menyadari bahwa tanpa tindakan yang tepat, limbah plastik akan terus mengancam keberlanjutan lingkungan dan kesehatan manusia. Oleh karena itu, kami menawarkan solusi lengkap untuk pengelolaan limbah plastik dengan pendekatan yang holistik dan berkelanjutan. Dengan layanan pengumpulan, pemrosesan, dan daur ulang yang efisien, kami membantu mengurangi jumlah limbah plastik yang berakhir di lautan dan lingkungan sekitarnya."
           url="projectone"
         />
       </div>
