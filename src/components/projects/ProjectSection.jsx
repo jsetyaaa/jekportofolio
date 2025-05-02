@@ -9,7 +9,7 @@ const ProjectSection = () => {
           thumbnail={images["Plasteco.png"]}
           title="Landing Page PlastEco Solutions"
           description="PlastEco Solutions menyadari bahwa tanpa tindakan yang tepat, limbah plastik akan terus mengancam keberlanjutan lingkungan dan kesehatan manusia. Oleh karena itu, kami menawarkan solusi lengkap untuk pengelolaan limbah plastik dengan pendekatan yang holistik dan berkelanjutan. Dengan layanan pengumpulan, pemrosesan, dan daur ulang yang efisien, kami membantu mengurangi jumlah limbah plastik yang berakhir di lautan dan lingkungan sekitarnya."
-          url="projectone"
+          url="https://plasteco-solutions.vercel.app/"
         />
       </div>
     </div>

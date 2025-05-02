@@ -16,11 +16,10 @@ const ScrollAnimation = ({ children, delay = 0.2 }) => {
   }, [controls, isInView]);
 
   const variants = {
-    hidden: { opacity: 0, y: 40 },
+    hidden: { opacity: 0},
     visible: {
       opacity: 1,
-      y: 0,
-      transition: { duration: 0.6, delay },
+      transition: { duration: 1, delay },
     },
   };
 
