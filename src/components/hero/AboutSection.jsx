@@ -36,11 +36,11 @@ const AboutSection = () => {
               JavaScript
             </li>
             <li>
-              <strong>Backend:</strong> PHP Native, Laravel (opsional)
+              <strong>Backend:</strong> PHP Native, Laravel
             </li>
             <li>
               <strong>Data Analysis:</strong> Python, Pandas, Scikit-learn, SVM,
-              Data Visualization (Matplotlib, Seaborn)
+              Data Visualization
             </li>
             <li>
               <strong>Tools:</strong> Git, Figma, VSCode, Excel, Tableau, Jupyter Notebook

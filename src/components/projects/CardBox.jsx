@@ -1,13 +1,25 @@
+import { useState } from "react";
 import ScrollAnimation from "../loading/ScrollAnimation";
 
 const CardBox = ({ thumbnail, title, description, url }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
     <ScrollAnimation>
-      <div className="bg-primary p-4 rounded-lg mx-6 flex flex-col hover:scale-105 transition-all duration-300 ease-in-out cursor-grab">
+      <div
+        className="bg-primary p-4 rounded-lg mx-6 flex flex-col hover:scale-105 transition-all duration-300 ease-in-out cursor-grab"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         <img src={thumbnail} alt={title} className="object-cover rounded-lg" />
-        <h1 className="text-xl mt-4 font-bold text-center">{title}</h1>
-        <p className="text-sm mt-4 md:text-base text-justify">{description}</p>
-        {/* <p className="text-sm mt-4 md:text-base">{description.length > 200 ? description.slice(0, 200) + '...' : description}</p> */}
+        <h1 className="text-xl mt-4 font-bold text-center text-second">{title}</h1>
+        <p className="text-sm mt-4 md:text-base text-second">
+          {isHovered
+            ? description
+            : description.length > 200
+            ? description.slice(0, 200) + "..."
+            : description}
+        </p>
         <a
           href={url}
           target="_blank"
