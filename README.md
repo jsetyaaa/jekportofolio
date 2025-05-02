@@ -1,12 +1,28 @@
-# React + Vite
+# 🌐 Personal Portfolio - Web Developer & Data Analyst
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah website portofolio pribadi yang menampilkan karya dan keahlian saya sebagai **Web Developer** dan **Data Analyst**. Website ini dirancang untuk menunjukkan pengalaman, proyek, dan kemampuan teknis saya dalam pengembangan web serta analisis data.
 
-Currently, two official plugins are available:
+## 🧠 Tentang Saya
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Saya adalah seorang Web Developer dan Data Analyst yang memiliki minat besar pada pembuatan solusi digital dan pengolahan data. Portofolio ini bertujuan untuk memperkenalkan siapa saya, teknologi yang saya kuasai, dan proyek-proyek yang telah saya kerjakan.
 
-## Expanding the ESLint configuration
+## 🖼️ Fitur Utama
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ Hero Section profesional dengan animasi
+- 📄 Tentang Saya (About Me)
+- 🛠️ Keahlian (Skills) – mencakup Web Development & Data Analysis Tools
+- 📁 Proyek – showcase project Web dan Data dengan detail & link demo
+- 📬 Kontak – link ke email/sosial media
+- 💡 Responsif – desain ramah mobile dan desktop
+
+## 🛠️ Teknologi yang Digunakan
+
+Frontend:
+- ReactJS / HTML + TailwindCSS
+- JavaScript
+- Framer Motion (untuk animasi)
+- React Router DOM (untuk navigasi)
+
+## 🚀 Demo Langsung
+
+🔗 [Lihat Portofolio Online](https://jekportofolio.vercel.app)
