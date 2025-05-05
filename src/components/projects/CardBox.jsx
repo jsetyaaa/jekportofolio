@@ -10,12 +10,14 @@ const CardBox = ({ thumbnail, title, description, url, slug }) => {
 
   const cardContent = (
     <>
-      <div>
+      <div className="border border-second rounded-lg p-4">
         <img src={thumbnail} alt={title} className="object-cover rounded-lg" />
+        <hr className="my-4 border-second" />
         <h1 className="text-xl mt-4 font-bold text-center text-second">
           {title}
         </h1>
-        <p className="text-sm mt-4 md:text-base text-second">
+        <hr className="my-4 border-second" />
+        <p className="text-sm mt-4 md:text-base text-second text-justify">
           {isHovered
             ? description
             : description.length > 200

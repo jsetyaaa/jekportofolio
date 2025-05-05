@@ -6,7 +6,7 @@ const DetailPage = () => {
   const project = projectData.find((item) => item.slug === slug);
 
   if (!project) {
-    return <div className="p-6 text-center text-red-500">Project not found</div>;
+    return <div className="p-6 text-center text-second text-5xl">Project not found</div>;
   }
 
   return (

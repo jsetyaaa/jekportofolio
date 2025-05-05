@@ -7,7 +7,6 @@ import MobileNavbar from "./components/navbar/MobileNavbar";
 import FooterSection from "./components/footer/FooterSection";
 import { AnimatePresence } from "framer-motion";
 import Loader from "./components/loading/Loader";
-import AboutPage from "./pages/AboutPage";
 import DetailPage from "./pages/DetailPage";
 import "./index.css";
 import "./App.css";
@@ -26,7 +25,7 @@ function App() {
   }, [location]);
 
   return (
-    <div className="bg-second">
+    <div className="bg-primary min-h-screen">
       {loading && <Loader />}
       <DesktopNavbar />
       <MobileNavbar />
@@ -34,7 +33,6 @@ function App() {
         <AnimatePresence mode="wait">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
             <Route path="/projects/:slug" element={<DetailPage />} />
           </Routes>
         </AnimatePresence>

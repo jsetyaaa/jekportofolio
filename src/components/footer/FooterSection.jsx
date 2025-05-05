@@ -15,18 +15,18 @@ const FooterSection = () => {
           <img
             src={icons["icons8-facebook-50.png"]}
             alt="Facebook Joko Setyanto"
-            className="w-8 h-8 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 text-second"
+            className="w-8 h-8 cursor-pointer hover:scale-125 transition-all ease-in-out duration-300 text-second"
           />
         </a>
         <a
-          href={"https://www.facebook.com/jsetya24/"}
+          href={"https://www.instagram.com/jsetya24/"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             src={icons["icons8-instagram-64.png"]}
             alt="Instagram Joko Setyanto"
-            className="w-8 h-8 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 text-second"
+            className="w-8 h-8 cursor-pointer hover:scale-125 transition-all ease-in-out duration-300 text-second"
           />
         </a>
         <a
@@ -37,7 +37,7 @@ const FooterSection = () => {
           <img
             src={icons["icons8-github-50.png"]}
             alt="Github Joko Setyanto"
-            className="w-8 h-8 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 text-second"
+            className="w-8 h-8 cursor-pointer hover:scale-125 transition-all ease-in-out duration-300 text-second"
           />
         </a>
         <a
@@ -46,9 +46,9 @@ const FooterSection = () => {
           rel="noopener noreferrer"
         >
           <img
-            src={icons["icons8-linkedin-64.png"]}
+            src={icons["icons8-linkedin-50.png"]}
             alt="LinkedIn Joko Setyanto"
-            className="w-8 h-8 cursor-pointer hover:scale-110 transition-all ease-in-out duration-300 text-second"
+            className="w-8 h-8 cursor-pointer hover:scale-125 transition-all ease-in-out duration-300 text-second"
           />
         </a>
       </div>

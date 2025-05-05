@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #F3EDC8;
-  --color-second: #561C24;
-  --color-third: #BF3131;
+  --color-primary: #35374B;
+  --color-second: #FFF;
+  --color-third: #5BA68D;
   --font-cabin: "Cabin", "sans-serif";
   --font-gummy: "Sour Gummy", "sans-serif";
-  --font-pacifico: "Pacifico", "cursive";
+  --font-oswald: "Oswald", "sans-serif";
 }
