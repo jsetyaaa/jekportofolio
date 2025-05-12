@@ -2,12 +2,11 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import DesktopNavbar from "./components/navbar/DesktopNavbar";
-import MobileNavbar from "./components/navbar/MobileNavbar";
 import FooterSection from "./components/footer/FooterSection";
 import { AnimatePresence } from "framer-motion";
 import Loader from "./components/loading/Loader";
 import DetailPage from "./pages/DetailPage";
+import Navbar from "./components/navbar/Navbar";
 import "./index.css";
 import "./App.css";
 
@@ -24,11 +23,13 @@ function App() {
     return () => clearTimeout(timer);
   }, [location]);
 
+  // Cek apakah berada di DetailPage
+  const isDetailPage = location.pathname.startsWith("/projects/");
+
   return (
-    <div className="bg-primary min-h-screen">
+    <div className="bg-primary min-h-screen overflow-x-hidden">
       {loading && <Loader />}
-      <DesktopNavbar />
-      <MobileNavbar />
+      {!isDetailPage && <Navbar />}
       <main className="flex-grow">
         <AnimatePresence mode="wait">
           <Routes>

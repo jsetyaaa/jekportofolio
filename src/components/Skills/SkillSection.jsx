@@ -1,11 +1,12 @@
 import IconBox from "./IconBox";
 import icons from "../../assets/icons";
 import ScrollAnimation from "../loading/ScrollAnimation";
+import images from "../../assets/images";
 
 const SkillSection = () => {
   return (
     <ScrollAnimation direction="up" delay={0.3}>
-      <div className="bg-transparent min-h-screen rounded-lg flex gap-4 md:gap-12 py-8 px-2 mx-6 md:mx-12 flex-wrap flex-col justify-center items-center md:justify-start mt-6 md:mt-12">
+      <div className="bg-transparent min-h-screen flex gap-4 md:gap-12 py-8 px-2 mx-6 md:mx-12 flex-wrap flex-col justify-center items-center md:justify-start mt-6 md:mt-12" id="skills">
         <h1 className="text-5xl font-bold text-center mb-4 text-second font-gummy">My Skills</h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-10 mt-6">
           <IconBox icon={icons["icons8-html-48.png"]} label="HTML5" />

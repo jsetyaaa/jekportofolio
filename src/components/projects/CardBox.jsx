@@ -11,7 +11,13 @@ const CardBox = ({ thumbnail, title, description, url, slug }) => {
   const cardContent = (
     <>
       <div className="border border-second rounded-lg p-4">
-        <img src={thumbnail} alt={title} className="object-cover rounded-lg" />
+        <picture className="overflow-hidden rounded-lg block">
+          <img
+            src={thumbnail}
+            alt={title}
+            className="object-cover hover:scale-110 transition-all ease-in-out duration-300"
+          />
+        </picture>
         <hr className="my-4 border-second" />
         <h1 className="text-xl mt-4 font-bold text-center text-second">
           {title}

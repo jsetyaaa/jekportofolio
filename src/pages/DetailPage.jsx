@@ -1,8 +1,10 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import projectData from "../data/projectData";
+import { FaBackspace } from "react-icons/fa";
 
 const DetailPage = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
   const project = projectData.find((item) => item.slug === slug);
 
   if (!project) {
@@ -10,7 +12,14 @@ const DetailPage = () => {
   }
 
   return (
-    <div className="bg-primary px-6 py-8 md:px-12 md:mx-12 md:rounded-xl md:mt-8">
+    <div className="bg-primary min-h-screen px-6 py-8 md:px-12 md:mx-12 md:rounded-xl md:mt-8">
+      <button
+        onClick={() => navigate(-1)}
+        className="mb-6 px-4 py-2 bg-second text-primary rounded hover:scale-105 transition cursor-pointer flex items-center gap-2"
+      >
+        <FaBackspace />
+        Kembali
+      </button>
       <img src={project.thumbnail} alt={project.title} className="rounded-lg mb-6" />
       <h1 className="text-3xl font-bold text-center mb-4 text-second">{project.title}</h1>
       <p className="text-lg text-center text-second">{project.description}</p>

@@ -2,7 +2,7 @@ import icons from "../../assets/icons";
 
 const FooterSection = () => {
   return (
-    <div className="bg-primary w-full mt-12 py-4 md:py-8 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8">
+    <div className="bg-primary py-4 w-full mt-12 md:py-8 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-8 pb-24">
       <h1 className="text-lg md:text-2xl font-bold text-second cursor-pointer font-gummy">
         mySosialMedia
       </h1>

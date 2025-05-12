@@ -1,3 +1,4 @@
+import { desc } from "framer-motion/client";
 import images from "../assets/images";
 
 const projectData = [
@@ -17,6 +18,13 @@ const projectData = [
     url: null,
     slug: "technoai",
   },
+  {
+    title: "Landing Page Arjabina",
+    description: "Arjabina adalah penyedia jasa desain arsitek, interior, dan kontraktor Jogja yang profesional dan terpercaya. Dengan pengalaman dan keahlian yang kuat dalam industri desain, kami menyediakan solusi desain yang sesuai dengan kebutuhan dan keinginan anda.",
+    thumbnail: images["Arjabina.png"],
+    url: null,
+    slug: "arjabina",
+  }
 ];
 
 export default projectData;
