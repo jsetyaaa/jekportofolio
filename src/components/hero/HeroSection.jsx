@@ -9,7 +9,7 @@ const HeroSection = () => {
       <ScrollAnimation direction="right" delay={0.3}>
         <div>
           <img
-            src={images["ImageHero.png"]}
+            src={images["ImageHero.webp"]}
             alt="Illustrasi Joko Setyanto"
             className="w-64 md:w-96"
             style={{ filter: "drop-shadow(10px 10px 24px hexa(#000000))" }}

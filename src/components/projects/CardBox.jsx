@@ -16,6 +16,7 @@ const CardBox = ({ thumbnail, title, description, url, slug }) => {
             src={thumbnail}
             alt={title}
             className="object-cover hover:scale-110 transition-all ease-in-out duration-300"
+            loading="lazy"
           />
         </picture>
         <hr className="my-4 border-second" />

@@ -15,9 +15,10 @@ const AboutSection = () => {
         <ScrollAnimation direction="left" delay={0.3}>
         <div className="">
           <img
-            src={images["MyFoto.png"]}
+            src={images["MyFoto.webp"]}
             alt="Illustrasi Joko Setyanto"
             className="mx-auto w-full cursor-grab hover:scale-110 transition-all duration-300 ease-in-out"
+            loading="lazy"
           />
         </div>
         </ScrollAnimation>

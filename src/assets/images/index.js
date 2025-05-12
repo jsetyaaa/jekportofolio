@@ -1,5 +1,5 @@
 // Impor semua file gambar dari folder images
-const imageModules = import.meta.glob('./*.{png,jpg,jpeg,svg}', { eager: true });
+const imageModules = import.meta.glob('./*.{png,jpg,jpeg,svg,webp}', { eager: true });
 
 const images = {};
 
