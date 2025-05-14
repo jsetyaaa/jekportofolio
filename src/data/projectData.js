@@ -10,6 +10,13 @@ const projectData = [
     slug: "plasteco-solutions",
   },
   {
+    title: "Srabeling Apps",
+    description: "Srabeling Apps merupakan aplikasi web yang dibuat menggunakan Flask, yang secara khusus dirancang untuk membantu peneliti dalam mengekstrak data dari Google Play Store. Srabeling Apps memberikan kemudahan dan efisiensi bagi peneliti yang perlu mengakses data aplikasi untuk analisis lebih lanjut, sehingga menjadikannya alat yang sangat berharga untuk penelitian aplikasi seluler.",
+    thumbnail: images["Srabeling.webp"],
+    url: null,
+    slug: "srabeling",
+  },
+  {
     title: "Blog TechnoAI",
     description:
       "Techno AI adalah web blog informatif seputar teknologi dan kecerdasan buatan, dibangun menggunakan PHP Laravel. Menyajikan artikel, berita, dan tutorial terkini, Techno AI hadir sebagai sumber terpercaya bagi para pengembang, pelajar, dan pecinta teknologi yang ingin mengikuti perkembangan dunia AI secara mendalam dan berkelanjutan.",
